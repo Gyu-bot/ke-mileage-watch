@@ -1,0 +1,13 @@
+[project]
+name = "ke-mileage-watch"
+version = "0.1.0"
+description = "Korean Air SKYPASS award availability checker via logged-in Chrome/CDP"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
